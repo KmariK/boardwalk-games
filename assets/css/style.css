@@ -1,14 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-body{
-    font-family:"Inter", sans-serif;
-}
-
-h1 {
-    font-family:"Macondo", cursive;
-}
-
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
@@ -30,9 +22,20 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
-/*Navbar*/
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
+
 #navbar {
     background-color: var(--primary-color);
 }
@@ -41,16 +44,20 @@ h3 {
     width: 30px;
 }
 
-.sub-heading-color {
-    color: var(--highlight-color);
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
 
-/*.container 
+/* grid visualisation CSS for testing */
+
+/* .container,
 .row {
     border: 2px solid black;
 }
 
 .col-12 {
     border: 2px solid white;
-    background: lightgrey;
+    background-color: lightgray;
 } */
